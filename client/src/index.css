@@ -87,8 +87,6 @@ p{
 }
 .anchor{
   color: black !important;
-  text-decoration: underline ;
-  cursor: pointer;
   font-size: 16px !important;
 }
 .anchor:hover{
