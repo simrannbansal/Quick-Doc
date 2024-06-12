@@ -99,7 +99,7 @@ function Layout({children}) {
                 <Badge count={user?.unseenNotifications.length} onClick={()=>navigate('/notifications')}>
                 <i className="ri-notification-3-line header-action-icon px-3 mr-2"></i>
                 </Badge>
-                <Link className="anchor mx-3" to='/profile'>{user?.name}</Link>
+                <div className="anchor mx-3" >{<b>user?.name}</b></div>
             </div>
             </div>
             <div className='body'>
